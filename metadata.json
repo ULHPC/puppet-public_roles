@@ -13,6 +13,10 @@
     {
       "name": "puppetlabs-stdlib",
       "version_range": ">= 1.0.0"
+    },
+    {
+      "name": "ULHPC/public_profiles",
+      "version_requirement": "0.x"
     }
   ],
   "operatingsystem_support": [
@@ -24,5 +28,17 @@
       ]
     }
   ],
-  "tags": ["r10k", "ULHPC", "roles", "public"]
+  "tags": [
+    "r10k",
+    "ULHPC",
+    "roles",
+    "public"
+  ],
+  "classes": [
+    "role",
+    "role::r10k"
+  ],
+  "definitions": [
+
+  ]
 }
