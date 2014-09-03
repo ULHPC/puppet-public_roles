@@ -4,7 +4,8 @@
 # License::   Apache-2.0
 #
 # ------------------------------------------------------------------------------
-# = Role: 
+# = Role: initial role class
 
-class role {
+class role::base {
+    include profile::base
 }
